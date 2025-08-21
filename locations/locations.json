@@ -83,7 +83,8 @@
                         "chest_unopened_img": "images/icons/chillpenguin.png",
                         "access_rules": [
                             "$has_weakness_for|Chill Penguin",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -91,7 +92,8 @@
                         "chest_unopened_img": "images/icons/chillpenguin.png",
                         "access_rules": [
                             "$has_weakness_for|Chill Penguin",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -169,7 +171,8 @@
                         "chest_unopened_img": "images/icons/armoredarmadillo.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Armored Armadillo"
+                            "$has_weakness_for|Armored Armadillo",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -177,7 +180,8 @@
                         "chest_unopened_img": "images/icons/armoredarmadillo.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Armored Armadillo"
+                            "$has_weakness_for|Armored Armadillo",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -207,7 +211,8 @@
                         "chest_unopened_img": "images/icons/thunderslimer.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Thunder Slimer"
+                            "$has_weakness_for|Thunder Slimer",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -217,7 +222,9 @@
                             "boomerang_cutter,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
                             "boomerang_cutter,$has_weakness_for|Thunder Slimer",
                             "legs1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "legs1,$has_weakness_for|Thunder Slimer"
+                            "legs1,$has_weakness_for|Thunder Slimer",
+                            "legs1,helmet",
+							"[never],legs1,hadouken"
                         ]
                     },
                     {
@@ -225,7 +232,9 @@
                         "chest_unopened_img": "images/icons/sparkmandrill.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Thunder Slimer,$has_weakness_for|Spark Mandrill"
+                            "$has_weakness_for|Thunder Slimer,$has_weakness_for|Spark Mandrill",
+							"helmet,$has_weakness_for|Spark Mandrill",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -233,7 +242,9 @@
                         "chest_unopened_img": "images/icons/sparkmandrill.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Thunder Slimer,$has_weakness_for|Spark Mandrill"
+                            "$has_weakness_for|Thunder Slimer,$has_weakness_for|Spark Mandrill",
+							"helmet,$has_weakness_for|Spark Mandrill",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -289,7 +300,8 @@
                         "chest_unopened_img": "images/icons/launchoctopus.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Launch Octopus"
+                            "$has_weakness_for|Launch Octopus",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -297,7 +309,8 @@
                         "chest_unopened_img": "images/icons/launchoctopus.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Launch Octopus"
+                            "$has_weakness_for|Launch Octopus",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -320,7 +333,8 @@
                         "chest_unopened_img": "images/icons/heart.png",
                         "access_rules": [
                             "boomerang_cutter",
-                            "icelogic_on,shotgun_ice,$can_charge"
+                            "icelogic_on,shotgun_ice,$can_charge",
+							"[never], legs1"
                         ]
                     },
                     {
@@ -328,7 +342,8 @@
                         "chest_unopened_img": "images/icons/boomerkuwanger.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Boomer Kuwanger"
+                            "$has_weakness_for|Boomer Kuwanger",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -336,7 +351,8 @@
                         "chest_unopened_img": "images/icons/boomerkuwanger.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Boomer Kuwanger"
+                            "$has_weakness_for|Boomer Kuwanger",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -366,7 +382,7 @@
                         "name": "Heart Tank",
                         "chest_unopened_img": "images/icons/heart.png",
                         "access_rules": [
-                            "legs1, launch_octopus_2"
+                            "legs1,launch_octopus_2"
                         ]
                     },
                     {
@@ -390,7 +406,8 @@
                         "chest_unopened_img": "images/icons/stingchameleon.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Sting Chameleon"
+                            "$has_weakness_for|Sting Chameleon",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -398,7 +415,8 @@
                         "chest_unopened_img": "images/icons/stingchameleon.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Sting Chameleon"
+                            "$has_weakness_for|Sting Chameleon",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -420,7 +438,8 @@
                         "name": "Heart Tank",
                         "chest_unopened_img": "images/icons/heart.png",
                         "access_rules": [
-                            "legs1"
+                            "legs1",
+							"[never],icelogic_on,$can_charge,shotgun_ice"
                         ]
                     },
                     {
@@ -473,7 +492,7 @@
                         "name": "Helmet Capsule",
                         "chest_unopened_img": "images/icons/capsule.png",
                         "access_rules": [
-                            "legs1"
+                            "legs1","[legs1]"
                         ]
                     },
                     {
@@ -489,7 +508,8 @@
                         "chest_unopened_img": "images/icons/stormeagle.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Storm Eagle"
+                            "$has_weakness_for|Storm Eagle",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -497,7 +517,8 @@
                         "chest_unopened_img": "images/icons/stormeagle.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Storm Eagle"
+                            "$has_weakness_for|Storm Eagle",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -535,7 +556,8 @@
                         "chest_unopened_img": "images/icons/heart.png",
                         "access_rules": [
                             "chill_penguin_2",
-                            "$can_charge,chameleon_sting"
+                            "$can_charge,chameleon_sting",
+							"[never],icelogic_on,$can_charge,shotgun_ice"
                         ]
                     },
                     {
@@ -559,7 +581,7 @@
                         "chest_unopened_img": "images/icons/subtank.png",
                         "access_rules": [
                             "legs1",
-                            "icelogic_on,shotgun_ice,chameleon_sting,$can_charge"
+                            "icelogic_on,shotgun_ice,$can_charge"
                         ]
                     },
                     {
@@ -567,7 +589,8 @@
                         "chest_unopened_img": "images/icons/flamemammoth.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Flame Mammoth"
+                            "$has_weakness_for|Flame Mammoth",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -575,7 +598,8 @@
                         "chest_unopened_img": "images/icons/flamemammoth.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Flame Mammoth"
+                            "$has_weakness_for|Flame Mammoth",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -598,7 +622,8 @@
                         "chest_unopened_img": "images/icons/vile.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Vile"
+                            "$has_weakness_for|Vile",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -606,7 +631,9 @@
                         "chest_unopened_img": "images/icons/boomerkuwanger.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Boomer Kuwanger"
+                            "$has_weakness_for|Vile,$has_weakness_for|Boomer Kuwanger",
+							"helmet,$has_weakness_for|Boomer Kuwanger",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -614,7 +641,9 @@
                         "chest_unopened_img": "images/icons/bospider.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Bospider"
+							"$has_weakness_for|Vile,$has_weakness_for|Boomer Kuwanger,$has_weakness_for|Bospider",
+                            "helmet,$has_weakness_for|Bospider",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -638,7 +667,8 @@
                         "chest_unopened_img": "images/icons/chillpenguin.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Chill Penguin"
+                            "$has_weakness_for|Chill Penguin",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -646,7 +676,9 @@
                         "chest_unopened_img": "images/icons/stormeagle.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Storm Eagle"
+							"$has_weakness_for|Chill Penguin,$has_weakness_for|Storm Eagle",
+                            "helmet,$has_weakness_for|Storm Eagle",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -654,7 +686,8 @@
                         "chest_unopened_img": "images/icons/rangda.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Rangda Bangda"
+							"$has_weakness_for|Chill Penguin,$has_weakness_for|Storm Eagle,$has_weakness_for|Rangda Bangda",
+                            "helmet,$has_weakness_for|Rangda Bangda"
                         ]
                     }
                 ],
@@ -678,14 +711,20 @@
                         "chest_unopened_img": "images/icons/armoredarmadillo.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Armored Armadillo"
+                            "$has_weakness_for|Armored Armadillo",
+							"[never],hadouken"
                         ]
                     },
                     {
                         "name": "HP Pickup 1 (Before Sting Chameleon rematch)",
                         "chest_unopened_img": "images/icons/large_hp.png",
                         "access_rules": [
-                            "legs1,boomerang_cutter"
+                            "$has_weakness_for|Armored Armadillo,legs1",
+							"$has_weakness_for|Armored Armadillo,boomerang_cutter",
+							"helmet,legs1",
+							"helmet,boomerang_cutter",
+							"[never],hadouken,legs1",
+							"[never],hadouken,boomerang_cutter"							
                         ],
                         "visibility_rules": [
                             "pickupsanity_on"
@@ -696,14 +735,17 @@
                         "chest_unopened_img": "images/icons/stingchameleon.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Sting Chameleon"
+                            "$has_weakness_for|Sting Chameleon",
+							"[never],hadouken"
                         ]
                     },
                     {
                         "name": "Weapon Energy Pickup 1 (Before Spark Mandrill rematch)",
                         "chest_unopened_img": "images/icons/large_energy.png",
                         "access_rules": [
-                            "boomerang_cutter"
+                            "$has_weakness_for|Sting Chameleon,boomerang_cutter",
+							"helmet,boomerang_cutter",
+							"[never],hadouken,boomerang_cutter"
                         ],
                         "visibility_rules": [
                             "pickupsanity_on"
@@ -713,7 +755,9 @@
                         "name": "HP Pickup 2 (Before Spark Mandrill rematch)",
                         "chest_unopened_img": "images/icons/large_hp.png",
                         "access_rules": [
-                            "boomerang_cutter"
+                            "$has_weakness_for|Sting Chameleon,boomerang_cutter",
+							"helmet,boomerang_cutter",
+							"[never],hadouken,boomerang_cutter"
                         ],
                         "visibility_rules": [
                             "pickupsanity_on"
@@ -724,13 +768,19 @@
                         "chest_unopened_img": "images/icons/sparkmandrill.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Spark Mandrill"
+                            "$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill",
+							"helmet,$has_weakness_for|Spark Mandrill",
+							"[never],hadouken"
                         ]
                     },
                     {
                         "name": "HP Pickup 3 (Before Launch Octopus rematch)",
                         "chest_unopened_img": "images/icons/large_hp.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill",
+							"helmet",
+							"[never],hadouken"
+						],
                         "visibility_rules": [
                             "pickupsanity_on"
                         ]
@@ -738,7 +788,11 @@
                     {
                         "name": "Weapon Energy Pickup 2 (Before Launch Octopus rematch)",
                         "chest_unopened_img": "images/icons/large_energy.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill",
+							"helmet",
+							"[never],hadouken"
+						],
                         "visibility_rules": [
                             "pickupsanity_on"
                         ]
@@ -748,14 +802,19 @@
                         "chest_unopened_img": "images/icons/launchoctopus.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Launch Octopus"
+                            "$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus",
+							"helmet,$has_weakness_for|Launch Octopus",
+							"[never],hadouken"
                         ]
                     },
                     {
                         "name": "HP Pickup 4 (On spikes)",
                         "chest_unopened_img": "images/icons/large_hp.png",
                         "access_rules": [
-                            "$can_charge,chameleon_sting"
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_charge,chameleon_sting",
+							"[never],$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_charge,boomerang_cutter",
+                            "helmet,$can_charge,chameleon_sting",							
+							"[never],hadouken,helmet,boomerang_cutter"
                         ],
                         "visibility_rules": [
                             "pickupsanity_on"
@@ -765,7 +824,10 @@
                         "name": "Weapon Energy Pickup 3 (On Spikes)",
                         "chest_unopened_img": "images/icons/large_energy.png",
                         "access_rules": [
-                            "$can_charge,chameleon_sting"
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_charge,chameleon_sting",
+							"[never],$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_charge,boomerang_cutter",
+                            "helmet,$can_charge,chameleon_sting",							
+							"[never],hadouken,helmet,boomerang_cutter"
                         ],
                         "visibility_rules": [
                             "pickupsanity_on"
@@ -775,8 +837,13 @@
                         "name": "1up Pickup (On spikes)",
                         "chest_unopened_img": "images/icons/extralife.png",
                         "access_rules": [
-                            "$can_charge,chameleon_sting",
-                            "$can_charge,shotgun_ice"
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_charge,chameleon_sting",
+							"[never],$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_charge,boomerang_cutter",
+                            "helmet,$can_charge,chameleon_sting",							
+							"[never],hadouken,helmet,boomerang_cutter",
+                            "helmet,icelogic_on,$can_charge,shotgun_ice",
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$can_chargeicelogic_on,$can_charge,shotgun_ice",
+							"[never],hadouken,icelogic_on,$can_charge,shotgun_ice"
                         ],
                         "visibility_rules": [
                             "pickupsanity_on"
@@ -787,7 +854,9 @@
                         "chest_unopened_img": "images/icons/flamemammoth.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Flame Mammoth"
+                            "$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$has_weakness_for|Flame Mammoth",
+							"helmet,$has_weakness_for|Flame Mammoth",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -795,7 +864,8 @@
                         "chest_unopened_img": "images/icons/drex.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|D-Rex"
+							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$has_weakness_for|Flame Mammoth,$has_weakness_for|D-Rex",
+                            "helmet,$has_weakness_for|D-Rex"
                         ]
                     }
                 ],
@@ -818,7 +888,8 @@
                         "chest_unopened_img": "images/icons/velguarder.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Velguarder"
+                            "$has_weakness_for|Velguarder",
+							"[never],hadouken"
                         ]
                     },
                     {
@@ -826,7 +897,7 @@
                         "chest_unopened_img": "images/icons/sigma.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Sigma"
+                            "$has_weakness_for|Velguarder,$has_weakness_for|Sigma"
                         ]
                     }
                 ],

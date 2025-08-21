@@ -767,15 +767,15 @@
     },
     {
       "name": "Group Sigma Levels",
-      "type": "progresive",
+      "type": "progressive",
       "allow_disabled": false,
       "loop": true,
-      "codes": "sigma_all_levels",
       "stages": [
         {
           "img": "images/settings/sigma_level_group_off.png",
           "name": "Group Sigma Levels - Off",
-          "codes": "sigma_all_levels,sigma_all_levels_off"
+          "codes": "sigma_all_levels,sigma_all_levels_off",
+		  "inherit_codes": "false"
         },
         {
           "img": "images/settings/sigma_level_group_on.png",

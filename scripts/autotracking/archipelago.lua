@@ -196,8 +196,8 @@ function onClear(slot_data)
 		Archipelago:SetNotify({TAB_SWITCH_KEY})
 		Archipelago:Get({TAB_SWITCH_KEY})
 	end
-
     BOSS_WEAKNESSES = slot_data['boss_weaknesses']
+	
 end
 
 

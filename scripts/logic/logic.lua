@@ -12,7 +12,6 @@ function is_active(item)
     return Tracker:FindObjectForCode(item).Active
 end
 
-
 function can_charge()
     local arms = Tracker:FindObjectForCode("arms").CurrentStage
     return arms >= 2
@@ -24,6 +23,7 @@ function boss_weaknesses_not_required()
 end
 
 function boss_buster_damage_possible()
+	if Tracker:FindObjectForCode("hadouken").Active then return true end
     local strictness = Tracker:FindObjectForCode("boss_weakness_strictness").CurrentStage
     if strictness == 3 then return false end
     if strictness == 2 then
