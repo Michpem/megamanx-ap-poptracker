@@ -3,7 +3,7 @@
 	    {
             "package_version": "1.0.5",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.5/megamanx-ap-poptracker.zip",
-            "sha256": "",
+            "sha256": "717A93ACA06DEF0BA0800233324F582F6080F5DFB90442A80DC758EF34B3DB8E",
             "changelog": [
                 "Flame Mammoth - Sub Tank: No longer requires charged Chameleon Sting (possible copypaste error from Heart Tank rules?)",
 				"Flame Mammoth - Heart Tank: Added yellow logic for charged Shotgun Ice with ice logic enabled",
@@ -102,4 +102,5 @@
             ]
         }
     ]
+
 }
