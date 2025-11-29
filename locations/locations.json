@@ -658,7 +658,7 @@
             {
                 "name": "Sigma Fortress 2",
                 "access_rules": [
-                    "sigma_1_cleared",
+                    "$is_sigma_open,sigma_1_cleared",
                     "$are_sigma_two_and_three_open"
                 ],
                 "sections": [
@@ -702,7 +702,7 @@
             {
                 "name": "Sigma Fortress 3",
                 "access_rules": [
-                    "sigma_2_cleared",
+                    "$is_sigma_open,sigma_2_cleared",
                     "$are_sigma_two_and_three_open"
                 ],
                 "sections": [
@@ -897,7 +897,7 @@
                         "chest_unopened_img": "images/icons/sigma.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Velguarder,$has_weakness_for|Sigma"
+                            "$has_weakness_for|Velguarder,$has_weakness_for|Sigma,$has_weakess_for|Wolf Sigma"
                         ]
                     }
                 ],
