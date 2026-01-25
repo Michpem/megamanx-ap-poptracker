@@ -1,12 +1,21 @@
 {
     "versions": [
 	    {
-            "package_version": "1.0.6",
-            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.6/megamanx-ap-poptracker.zip",
+            "package_version": "1.0.7",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.7/megamanx-ap-poptracker.zip",
             "sha256": "",
             "changelog": [
+                "Added an extra square for the hidden 1up check in Storm Eagle's stage",
+				"Added the Enhancement Chip items to the tracker"
+            ]
+        },	
+	    {
+            "package_version": "1.0.6",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.6/megamanx-ap-poptracker.zip",
+            "sha256": "8f1ec7512db550f33c297853bb1290cc2e633e7309280c90a59f284daee95899",
+            "changelog": [
                 "Sigma Fortress 4 and 3: Added Sigma Fortress access requirements",
-				"Sigma Fortress 4: Added Wolf Sigma's weakness to the logic for the final Sigma check",
+				"Sigma Fortress 4: Added Wolf Sigma's weakness to the logic for the final Sigma check"
             ]
         },	
 	    {

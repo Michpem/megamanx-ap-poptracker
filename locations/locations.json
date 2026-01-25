@@ -865,7 +865,8 @@
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
 							"$has_weakness_for|Sting Chameleon,$has_weakness_for|Spark Mandrill,$has_weakness_for|Launch Octopus,$has_weakness_for|Flame Mammoth,$has_weakness_for|D-Rex",
-                            "helmet,$has_weakness_for|D-Rex"
+                            "helmet,$has_weakness_for|D-Rex",
+							"[never],hadouken"
                         ]
                     }
                 ],
@@ -1556,7 +1557,19 @@
                     {
                         "ref": "Stages/Storm Eagle/HP Pickup 3 (Behind third set of gas tanks)",
                         "name": "HP Pickup 3 (Behind third set of gas tanks)"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "storm_eagle",
+                        "x": 436,
+                        "y": 316
+                    }
+                ]
+            },
+            {
+                "name": "Behind wall in third set of gas tanks",
+                "sections": [
                     {
                         "ref": "Stages/Storm Eagle/1up Pickup 1 (Behind wall in third set of gas tanks)",
                         "name": "1up Pickup 1 (Behind wall in third set of gas tanks)"
@@ -1565,7 +1578,7 @@
                 "map_locations": [
                     {
                         "map": "storm_eagle",
-                        "x": 436,
+                        "x": 465,
                         "y": 316
                     }
                 ]
