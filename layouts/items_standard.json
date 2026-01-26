@@ -23,7 +23,7 @@
                             ["boomerang_cutter", "chameleon_sting", "storm_tornado", "fire_wave"],
                             ["helmet", "body", "arms", "legs"],
                             ["heart_tank", "sub_tank", "hadouken","maverick_medal"],
-                            ["auto_tab_switch", "chip_quick_charge", "chip_speedster", "chip_super_recover"]
+                            ["chip_quick_charge", "chip_speedster", "chip_super_recover", "auto_tab_switch"]
                         ]
                     }
                 ]

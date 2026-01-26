@@ -1,4 +1,4 @@
-local STARTING_ID = 0xBE0C00
+local STARTING_ID = 0xBE0800
 ITEM_MAPPING = {
     [STARTING_ID + 0x00] = {"victory", "consumable"},
     [STARTING_ID + 0x01] = {"maverick_medal", "consumable"},
@@ -36,7 +36,7 @@ ITEM_MAPPING = {
     [STARTING_ID + 0x33] = {"large_hp", "consumable"},
     [STARTING_ID + 0x34] = {"life", "consumable"},
 	
-	[STARTING_ID + 0x40] = {"chip_quick_charge", "toggle"},
-	[STARTING_ID + 0x41] = {"chip_speedster", "toggle"},
-	[STARTING_ID + 0x42] = {"chip_super_recover", "toggle"}
+    [STARTING_ID + 0x40] = {"chip_quick_charge", "toggle"},
+    [STARTING_ID + 0x41] = {"chip_speedster", "toggle"},
+    [STARTING_ID + 0x42] = {"chip_super_recover", "toggle"}
 }
