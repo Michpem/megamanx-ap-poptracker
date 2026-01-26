@@ -3,7 +3,7 @@
 	    {
             "package_version": "1.0.7",
             "download_url": "https://github.com/Michpem/megamanx-ap-poptracker/releases/download/1.0.7/megamanx-ap-poptracker.zip",
-            "sha256": "ae16780459295efa901980c6f029a98685b8d1c4d43ed6b2a02c2dca504c7427",
+            "sha256": "ccf94b29bdadd3c169c5d0044b7876831085e041ae1dc55c037f23cb283748cb",
             "changelog": [
                 "Added an extra square for the hidden 1up check in Storm Eagle's stage",
 				"Added the Enhancement Chip items to the tracker"
@@ -122,6 +122,7 @@
     ]
 
 }
+
 
 
 
