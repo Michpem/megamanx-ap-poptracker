@@ -3,7 +3,7 @@
 	    {
             "package_version": "1.0.8",
             "download_url": "https://github.com/Michpem/megamanx-ap-poptracker/releases/download/1.0.8/megamanx-ap-poptracker.zip",
-            "sha256": "bb998461ab5b2b9c1d086977e78c8564780be150688ae19025b342419e4bc2e1",
+            "sha256": "a05643872a7e5fe511db6af7c295d2b4dad3f5496030d858d59443c3784f0141",
             "changelog": [
                 "Fixed access rules for the final Sigma location",
 				"Added the new Enhancement Chip items"
@@ -131,6 +131,7 @@
     ]
 
 }
+
 
 
 
