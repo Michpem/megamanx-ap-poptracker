@@ -1,6 +1,14 @@
 {
     "versions": [
 	    {
+            "package_version": "1.0.8",
+            "download_url": "https://github.com/Michpem/megamanx-ap-poptracker/releases/download/1.0.8/megamanx-ap-poptracker.zip",
+            "sha256": "",
+            "changelog": [
+                "Fixed access rules for the final Sigma location"
+            ]
+        },	
+	    {
             "package_version": "1.0.7",
             "download_url": "https://github.com/Michpem/megamanx-ap-poptracker/releases/download/1.0.7/megamanx-ap-poptracker.zip",
             "sha256": "ae16780459295efa901980c6f029a98685b8d1c4d43ed6b2a02c2dca504c7427",

@@ -898,7 +898,7 @@
                         "chest_unopened_img": "images/icons/sigma.png",
                         "access_rules": [
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-                            "$has_weakness_for|Velguarder,$has_weakness_for|Sigma,$has_weakess_for|Wolf Sigma"
+                            "$has_weakness_for|Velguarder,$has_weakness_for|Sigma,$has_weakness_for|Wolf Sigma"
                         ]
                     }
                 ],
