@@ -178,6 +178,38 @@
         "disabled_img": "images/icons/chip_super_recover_gray.png",
         "codes": "chip_super_recover"
     },
+	
+    {
+        "name": "Rapid Five Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_rapid_five.png",
+        "disabled_img": "images/icons/chip_rapid_five_gray.png",
+        "codes": "chip_rapid_five"
+    },
+
+    {
+        "name": "Speed Shot Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_speed_shot.png",
+        "disabled_img": "images/icons/chip_speed_shot_gray.png",
+        "codes": "chip_speed_shot"
+    },
+
+    {
+        "name": "Weapon Plus Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_weapon_plus.png",
+        "disabled_img": "images/icons/chip_weapon_plus_gray.png",
+        "codes": "chip_weapon_plus"
+    },
+
+    {
+        "name": "Buster Plus Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_buster_plus.png",
+        "disabled_img": "images/icons/chip_buster_plus_gray.png",
+        "codes": "chip_buster_plus"
+    },
 
     {
         "name": "Heart Tank",
