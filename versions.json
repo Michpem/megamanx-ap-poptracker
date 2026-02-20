@@ -3,7 +3,7 @@
 	    {
             "package_version": "1.0.9",
             "download_url": "https://github.com/Michpem/megamanx-ap-poptracker/releases/download/1.0.9/megamanx-ap-poptracker.zip",
-            "sha256": "",
+            "sha256": "7c2cf47cf07b305deceff2800bc848cde5ac69688fe2695f97c7576ee64e9943",
             "changelog": [
                 "Fixed autotracking"
             ]
@@ -139,6 +139,7 @@
     ]
 
 }
+
 
 
 
