@@ -32,15 +32,15 @@ ITEM_MAPPING = {
     [STARTING_ID + 0x1E] = {"arms_mapped", "progressive"},
     [STARTING_ID + 0x1F] = {"legs", "progressive"},
 	
-    [STARTING_ID + 0x32] = {"small_hp", "consumable"},
-    [STARTING_ID + 0x33] = {"large_hp", "consumable"},
+    [STARTING_ID + 0x30] = {"small_hp", "consumable"},
+    [STARTING_ID + 0x31] = {"large_hp", "consumable"},
     [STARTING_ID + 0x34] = {"life", "consumable"},
 	
     [STARTING_ID + 0x40] = {"chip_quick_charge", "toggle"},
     [STARTING_ID + 0x41] = {"chip_speedster", "toggle"},
-    [STARTING_ID + 0x42] = {"chip_super_recover", "toggle"}
+    [STARTING_ID + 0x42] = {"chip_super_recover", "toggle"},
     [STARTING_ID + 0x43] = {"chip_rapid_five", "toggle"},
     [STARTING_ID + 0x44] = {"chip_speed_shot", "toggle"},
-    [STARTING_ID + 0x45] = {"chip_weapon_plus", "toggle"}
+    [STARTING_ID + 0x45] = {"chip_weapon_plus", "toggle"},
 	[STARTING_ID + 0x46] = {"chip_buster_plus", "toggle"}
 }
